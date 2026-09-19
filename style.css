@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.todo-container {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+
+.todo-input input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.todo-input button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: orange;
+    color: white;
+}
+
+#todoList {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#todoList li {
+    background: #f1f1f1;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+#todoList li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#todoList li span {
+    flex: 1;
+}
+
+#todoList button {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#todoList button:first-of-type {
+    background: #4caf50;
+    color: white;
+}
+
+#todoList button:last-of-type {
+    background: #e53935;
+    color: white;
+}
+
+#todoList button {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#todoList button:nth-of-type(1) {
+    background: #4caf50;
+}
+
+#todoList button:nth-of-type(2) {
+    background: #2196f3;
+}
+
+#todoList button:nth-of-type(3) {
+    background: #e53935;
+}
